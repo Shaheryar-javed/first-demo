@@ -30,4 +30,4 @@ jobs:
       - name: installinge surge
         run: npm install -g surge
       - name: surge
-        run: surge ./ https://bootcamp-with-shari.surge.sh --(TOKEN=ME)
+        run: surge ./ https://bootcamp-with-shari.surge.sh --token ${{secrets.TOKEN-ME}}
